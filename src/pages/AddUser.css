@@ -1,0 +1,26 @@
+.add-user-container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.success-message {
+  text-align: center;
+  padding: 20px;
+}
+
+.success-message h3 {
+  color: #28a745;
+  margin-bottom: 10px;
+}
+
+form .btn {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  font-size: 1rem;
+}
+
+form .btn:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}

@@ -1,0 +1,39 @@
+.user-details-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.users-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.loading, .error-container, .no-users {
+  text-align: center;
+  padding: 40px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.loading {
+  color: #4ecdc4;
+  font-size: 1.2rem;
+}
+
+.error-container {
+  color: #ff0033;
+  font-size: 1.2rem;
+}
+
+.no-users {
+  color: #666;
+  font-size: 1.2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .users-grid {
+    grid-template-columns: 1fr;
+  }
+}
