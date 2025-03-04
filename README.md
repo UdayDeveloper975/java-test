@@ -12,7 +12,7 @@ A simple dating recommendation application built with Spring Boot and React.js t
 ## Technology Stack
 
 ### Backend
-- Java 17
+- Java 23
 - Spring Boot 3.2.0
 - Spring Data JPA
 - MySQL Database
@@ -27,7 +27,7 @@ A simple dating recommendation application built with Spring Boot and React.js t
 ## How to Run
 
 ### Prerequisites
-- Java 17 or higher
+- Java 23 or higher
 - Node.js and npm
 - MySQL
 
